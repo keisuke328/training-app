@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-trainingapp-dev-74132-authRole",
+      "UnauthRoleArn": "arn:aws:iam::934096045053:role/amplify-trainingapp-dev-74132-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::934096045053:role/amplify-trainingapp-dev-74132-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-trainingapp-dev-74132-deployment",
+      "UnauthRoleName": "amplify-trainingapp-dev-74132-unauthRole",
+      "StackName": "amplify-trainingapp-dev-74132",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:934096045053:stack/amplify-trainingapp-dev-74132/ded5c280-4047-11ed-b601-0606b711aea9",
+      "AmplifyAppId": "dwioiifna8ui4"
+    },
+    "categories": {
+      "auth": {
+        "trainingapp1d078856": {}
+      }
+    }
+  }
+}

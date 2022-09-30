@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "trainingapp",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/keisuke/Desktop/trial/training-app/amplify/backend/api/trainingapp/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authtrainingapp1d078856"
+      }
+    ]
+  }
+}

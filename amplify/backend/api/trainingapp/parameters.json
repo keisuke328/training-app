@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "trainingapp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authtrainingapp1d078856",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
